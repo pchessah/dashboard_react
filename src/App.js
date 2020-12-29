@@ -1,11 +1,27 @@
 import React from 'react'
-import "./index.css"
+import { Line } from 'react-chartjs-2'
+
+const state = {
+  labels: ['January', 'February', 'March', 'April', 'May'],
+  datasets: [
+    {
+      label: 'Orders',
+      fill: false,
+      lineTension: 0.5,
+      backgroundColor: 'rgba(75,192,192,1)',
+      borderColor: 'rgba(0,0,0,1)',
+      borderWidth: 2,
+      data: [65, 59, 80, 81, 56],
+    },
+  ],
+}
 
 class App extends React.Component {
   render() {
     return (
       <div>
         <nav
+          id="top-nav"
           aria-label="hidden"
           className="navbar navbar-light bg-light new-navbar-sec-1"
         >
@@ -131,7 +147,20 @@ class App extends React.Component {
                     </div>
                   </div>
                   <div className="col-6 chart">
-                    <canvas id="myChart" width="100%"></canvas>
+                    <Line
+                      data={state}
+                      options={{
+                        title: {
+                          display: true,
+                          text: 'Average Orders per month',
+                          fontSize: 20,
+                        },
+                        legend: {
+                          display: true,
+                          position: 'right',
+                        },
+                      }}
+                    />
                   </div>
                 </div>
               </div>

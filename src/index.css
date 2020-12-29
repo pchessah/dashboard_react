@@ -13,10 +13,10 @@ code {
 }
 
 .new-navbar-sec-1 {
-  border-bottom: solid 1px #c1bebe;
   padding: 10px 125px;
   display: flex;
   justify-content: space-between;
+  border: 20px;
 }
 
 .profile-pic img{
@@ -103,15 +103,6 @@ body{
   padding: 10px;
 }
 
-.search-bar{
-  border: none;
-  background-color: transparent;
-  
-}
-
-.search-icon{
-  font-size: smaller;
-}
 
 .timeline_bar{
   border-left: #F3F5F4 solid 1px;
@@ -139,6 +130,12 @@ body{
   color: #98DC91;
   font-size: 1.5rem;
 }
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 
 
 
