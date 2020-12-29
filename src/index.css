@@ -11,3 +11,141 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.new-navbar-sec-1 {
+  border-bottom: solid 1px #c1bebe;
+  padding: 10px 125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-pic img{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+}
+
+.new-navbar-sec-2 {
+  box-shadow: 0 2px 2px rgb(146 146 146 / 25%), 0 1px 3px rgba(0, 0, 0, 0.22);
+  padding: 10px 122px;
+
+}
+
+.breadcrumbs-reset{
+  background-color: transparent;
+  margin-top: 10px;
+  padding: 0.75rem 0rem;
+}
+
+.btn-breadcrumbs{
+  background-color: white;
+  color: black;
+  border: none;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  color: #6c757d;
+  content: unset;
+}
+
+body{
+  background-color: #E1ECEE;
+}
+
+.chart-card{
+  margin-top: 30px;
+}
+
+.card-info, .card-info-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-info-icon{
+  background-color:  #E1ECEE;
+  border-radius: 50%;
+  padding: 20px;
+  height: 120px;
+  width: 120px;
+  font-size: 30px;
+  color: #D45551;
+}
+
+.chart-card-header{
+  background-color: white;
+  border-bottom-color: #FCFCFC;
+}
+
+.chart-card-header h3{
+  font-weight: 600;
+}
+
+.chart-card-header h5{
+  font-weight: 300;
+}
+
+.timeline{
+  border-right: #FCFCFC solid 0.5px;
+  padding-top: 30px; 
+  font-size: smaller;  
+}
+
+.info-chart-holder{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.chart{
+  padding: 10px;
+}
+
+.search-bar{
+  border: none;
+  background-color: transparent;
+  
+}
+
+.search-icon{
+  font-size: smaller;
+}
+
+.timeline_bar{
+  border-left: #F3F5F4 solid 1px;
+  height: 250px;
+  left: 8.0%;
+  margin-top: 12px;
+}
+
+.timeline-content{
+  z-index: 20;
+  right: 7%;
+}
+
+.timeline-content-1 li::marker{
+  color:#D7595A;
+  font-size: 1.5rem;
+}
+
+.timeline-content-2 li::marker{
+  color: #2696D4;
+  font-size: 1.5rem;
+}
+
+.timeline-content-3 li::marker{
+  color: #98DC91;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
